@@ -13,6 +13,7 @@ int main() {
     }
     return 0;
 }
+
 int main() {
     int age;
     printf("Enter the age");
@@ -29,6 +30,8 @@ int main() {
     }
     return 0;
 }
+
+
  int main() {
     int age;
     printf("enter the age");
@@ -36,6 +39,7 @@ int main() {
     age>=18? printf("adult") : printf("not adult");
     return 0;
  }
+
 int main() {
     int day;
     printf("enter the day :");
@@ -51,10 +55,9 @@ int main() {
                  break;       
         default :printf("not a valid day \n");
     }
-    
-
     return 0;
 }
+
 int main(){
     int num;
     printf("enter the number");
@@ -94,6 +97,7 @@ int main() {
     return 0;
 
 }
+
 int main() {
     int marks;
     printf("enter the marks");
@@ -127,5 +131,3 @@ int main() {
         printf("root1 = %.2lf+%.2lfi and root2 = %.2f-%.2fi", realPart, imagPart, realPart, imagPart);
     }
 }
-
-
